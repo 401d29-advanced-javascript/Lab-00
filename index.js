@@ -7,7 +7,7 @@ const requestHandler = (req,res) => {
   res.setHeader('Content-Type', 'text/html');
   res.statusCode = 200;
   res.write( pol.isAlive().toString() );
-  res.end();
+  res.end('Hello World!');
 };
 
 const app = http.createServer(requestHandler);

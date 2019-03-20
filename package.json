@@ -4,6 +4,7 @@
   "description": "![cf](http://i.imgur.com/7v5ASc8.png) Deployment Workshops ==========================================================",
   "main": "index.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
